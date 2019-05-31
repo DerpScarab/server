@@ -1,13 +1,12 @@
-[08:35:52] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08:35:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08:35:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08:35:52] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08:35:52] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08:35:52] [main/INFO]: Loaded 0 recipes
-[08:35:52] [main/INFO]: Loaded 0 advancements
-[08:35:52] [Server thread/INFO]: Starting minecraft server version 1.13.2
-[08:35:52] [Server thread/INFO]: Loading properties
-[08:35:52] [Server console handler/ERROR]: Exception handling console input
+[09:32:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:32:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:32:27] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:32:27] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:32:27] [main/INFO]: Loaded 0 recipes
+[09:32:27] [main/INFO]: Loaded 0 advancements
+[09:32:29] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[09:32:29] [Server thread/INFO]: Loading properties
+[09:32:29] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_171]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_171]
@@ -21,179 +20,57 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_171]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_171]
 	at so$2.run(SourceFile:110) [server.jar:?]
-[08:35:52] [Server thread/INFO]: Default game type: SURVIVAL
-[08:35:52] [Server thread/INFO]: Generating keypair
-[08:35:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:35:53] [Server thread/INFO]: Using default channel type
-[08:35:53] [Server thread/INFO]: Preparing level "world"
-[08:35:53] [Server thread/INFO]: Reloading ResourceManager: Default
-[08:35:54] [Server thread/INFO]: Loaded 524 recipes
-[08:35:55] [Server thread/INFO]: Loaded 571 advancements
-[08:35:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 4%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 8%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 12%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 16%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 20%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 24%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 28%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 32%
-[08:35:55] [Server thread/INFO]: Preparing spawn area: 36%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 40%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 44%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 48%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 52%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 56%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 60%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 64%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 68%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 72%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 76%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 80%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 84%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 88%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 92%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 96%
-[08:35:56] [Server thread/INFO]: Preparing spawn area: 100%
-[08:35:56] [Server thread/INFO]: Time elapsed: 1542 ms
-[08:35:56] [Server thread/INFO]: Done (3.312s)! For help, type "help"
-[08:36:06] [User Authenticator #1/INFO]: UUID of player TOMATOETORNADO is 8a8a9ac9-2c50-4f90-8ad2-7ff4eac2ebfb
-[08:36:06] [Server thread/INFO]: TOMATOETORNADO[/10.162.33.246:50596] logged in with entity id 290 at (34.5, 63.0, -381.5)
-[08:36:06] [Server thread/INFO]: TOMATOETORNADO joined the game
-[08:36:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@13a16cd9[id=<null>,name=b____________obi,properties={},legacy=false] (/10.162.33.241:55392) lost connection: Disconnected
-[08:36:19] [User Authenticator #2/INFO]: UUID of player Sasuke_Juuls is 0894d9ea-ad6a-4868-a170-41f7a983da7f
-[08:36:19] [Server thread/INFO]: Sasuke_Juuls[/10.162.33.243:63202] logged in with entity id 306 at (248.89599609375, 62.07326639875175, -1096.845703125)
-[08:36:19] [Server thread/INFO]: Sasuke_Juuls joined the game
-[08:36:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2460ms or 49 ticks behind
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -1.5749992377890578,6.679101716144942E-13,-10.262450348330049
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -1.6673081560163894,6.679101716144942E-13,-10.64374904328929
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -1.7622212254013903,6.679101716144942E-13,-11.025126910555628
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -1.8595805591371004,6.679101716144942E-13,-11.406544125784876
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -1.959233001508153,6.679101716144942E-13,-11.787968032191657
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.0610333335055486,6.679101716144942E-13,-12.169371339733743
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.164839841409929,6.679101716144942E-13,-12.55073281405771
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.270521288320623,6.750155989720952E-13,-12.932034376151478
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.377948573286403,6.750155989720952E-13,-13.313263174721214
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.4870018295240186,6.750155989720952E-13,-13.694408735112802
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.5975658623239326,6.750155989720952E-13,-14.075463936092547
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.709536975961214,6.750155989720952E-13,-14.456422308945548
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.8228108965890044,6.750155989720952E-13,-14.837281570854202
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -2.93729376657177,6.750155989720952E-13,-15.218039630030034
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.0528974632552774,6.750155989720952E-13,-15.598695777330022
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.1695390254683105,6.750155989720952E-13,-15.97925055171686
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.287140141099542,6.750155989720952E-13,-16.359705626624645
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.4056266868480805,6.750155989720952E-13,-16.740063703962278
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.5249319470882767,6.750155989720952E-13,-17.120327204271916
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.6449922372186734,6.750155989720952E-13,-17.500499509310202
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.7657502383055146,6.750155989720952E-13,-17.880583651482084
-[08:36:28] [Server thread/WARN]: Boat (vehicle of Sasuke_Juuls) moved too quickly! -3.887150723701154,6.750155989720952E-13,-18.260583574396605
-[08:36:30] [Server thread/INFO]: TOMATOETORNADO lost connection: Disconnected
-[08:36:30] [Server thread/INFO]: TOMATOETORNADO left the game
-[08:36:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@2c59f123[id=<null>,name=TOMATOETORNADO,properties={},legacy=false] (/10.162.33.246:50597) lost connection: Disconnected
-[08:36:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@1ee0d66e[id=<null>,name=TOMATOETORNADO,properties={},legacy=false] (/10.162.33.246:50599) lost connection: Disconnected
-[08:36:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@208baf4e[id=<null>,name=cmndr_in_chief,properties={},legacy=false] (/127.0.0.1:60365) lost connection: Disconnected
-[08:36:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@6cbfd222[id=<null>,name=TOMATOETORNADO,properties={},legacy=false] (/10.162.33.246:50600) lost connection: Disconnected
-[08:36:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@711ed309[id=<null>,name=cmndr_in_chief,properties={},legacy=false] (/127.0.0.1:60366) lost connection: Disconnected
-[08:36:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@c0ab764[id=<null>,name=cmndr_in_chief,properties={},legacy=false] (/127.0.0.1:60367) lost connection: Disconnected
-[08:36:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@1deb5289[id=<null>,name=cmndr_in_chief,properties={},legacy=false] (/127.0.0.1:60368) lost connection: Disconnected
-[08:38:47] [Server thread/INFO]: [Sasuke_Juuls: Set the time to 1000]
-[08:39:55] [User Authenticator #3/INFO]: UUID of player b____________obi is 0663ba8e-efdc-4393-8824-912cdfc704d8
-[08:39:56] [Server thread/INFO]: b____________obi[/10.162.33.241:55530] logged in with entity id 7307 at (11.772968013124704, 63.0, -399.71647973130837)
-[08:39:56] [Server thread/INFO]: b____________obi joined the game
-[08:40:00] [User Authenticator #4/INFO]: UUID of player TOMATOETORNADO is 8a8a9ac9-2c50-4f90-8ad2-7ff4eac2ebfb
-[08:40:01] [Server thread/INFO]: TOMATOETORNADO[/10.162.33.246:50650] logged in with entity id 8119 at (31.699999988079067, 65.0, -372.20796129944085)
-[08:40:01] [Server thread/INFO]: TOMATOETORNADO joined the game
-[08:40:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2195ms or 43 ticks behind
-[08:40:07] [Server thread/WARN]: Sasuke_Juuls moved too quickly! 5.056661382959419,2.0,-8.875802350847835
-[08:40:16] [User Authenticator #5/INFO]: UUID of player cmndr_in_chief is 9ac0a14d-1b1f-44cf-9a36-1f24440320db
-[08:40:16] [Server thread/INFO]: cmndr_in_chief[/127.0.0.1:60832] logged in with entity id 8861 at (24.487732225211637, 63.0, -387.69577558007467)
-[08:40:16] [Server thread/INFO]: cmndr_in_chief joined the game
-[08:41:18] [Server thread/INFO]: [cmndr_in_chief: Made TOMATOETORNADO a server operator]
-[08:41:39] [Server thread/INFO]: TOMATOETORNADO has made the advancement [A Seedy Place]
-[08:42:06] [Server thread/INFO]: TOMATOETORNADO has made the advancement [Acquire Hardware]
-[08:42:26] [Server thread/INFO]: TOMATOETORNADO has made the advancement [Suit Up]
-[08:43:12] [Server thread/INFO]: TOMATOETORNADO has made the advancement [Isn't It Iron Pick]
-[08:44:54] [Server thread/INFO]: Sasuke_Juuls has made the advancement [Not Today, Thank You]
-[08:45:12] [Server thread/INFO]: TOMATOETORNADO has made the advancement [Stone Age]
-[08:45:37] [Server thread/INFO]: cmndr_in_chief tried to swim in lava
-[08:46:02] [Server thread/INFO]: TOMATOETORNADO has made the advancement [Monster Hunter]
-[08:49:42] [Server thread/INFO]: [Sasuke_Juuls: Teleported Sasuke_Juuls to b____________obi]
-[08:49:42] [Server thread/WARN]: Fetching addPacket for removed entity
-[08:55:59] [Server thread/INFO]: TOMATOETORNADO tried to swim in lava
-[08:58:01] [Server thread/INFO]: [cmndr_in_chief: Teleported cmndr_in_chief to Sasuke_Juuls]
-[08:58:21] [Server thread/INFO]: <TOMATOETORNADO> pass the wood
-[09:02:38] [Server thread/INFO]: Sasuke_Juuls has made the advancement [Diamonds!]
-[09:04:40] [Server thread/INFO]: TOMATOETORNADO has made the advancement [Getting an Upgrade]
-[09:04:54] [Server thread/INFO]: [Sasuke_Juuls: Teleported cmndr_in_chief to Sasuke_Juuls]
-[09:08:06] [User Authenticator #6/INFO]: UUID of player legojoshua12 is b3d84602-239f-45ea-a036-7ace620f16d5
-[09:08:06] [Server thread/INFO]: legojoshua12[/10.162.33.213:58593] logged in with entity id 54915 at (27.5, 63.0, -385.5)
-[09:08:06] [Server thread/INFO]: legojoshua12 joined the game
-[09:09:49] [Server thread/INFO]: [Sasuke_Juuls: Teleported cmndr_in_chief to Sasuke_Juuls]
-[09:09:56] [Server thread/INFO]: [Sasuke_Juuls: Teleported Sasuke_Juuls to TOMATOETORNADO]
-[09:10:14] [Server thread/INFO]: [Sasuke_Juuls: Teleported Sasuke_Juuls to b____________obi]
-[09:10:23] [Server thread/INFO]: legojoshua12 has made the advancement [Stone Age]
-[09:10:25] [Server thread/INFO]: [cmndr_in_chief: Made legojoshua12 a server operator]
-[09:10:35] [Server thread/INFO]: legojoshua12 has made the advancement [Acquire Hardware]
-[09:10:46] [Server thread/INFO]: legojoshua12 has made the advancement [Suit Up]
-[09:11:50] [Server thread/INFO]: legojoshua12 has made the advancement [Isn't It Iron Pick]
-[09:11:58] [Server thread/INFO]: legojoshua12 lost connection: Disconnected
-[09:11:58] [Server thread/INFO]: legojoshua12 left the game
-[09:13:09] [User Authenticator #7/INFO]: UUID of player legojoshua12 is b3d84602-239f-45ea-a036-7ace620f16d5
-[09:13:09] [Server thread/INFO]: legojoshua12[/10.162.33.213:58855] logged in with entity id 62087 at (22.30000001192093, 52.0, -380.69449689587975)
-[09:13:09] [Server thread/INFO]: legojoshua12 joined the game
-[09:13:09] [Server thread/WARN]: Fetching addPacket for removed entity
-[09:14:08] [Server thread/INFO]: [Sasuke_Juuls: Teleported TOMATOETORNADO to Sasuke_Juuls]
-[09:16:08] [Server thread/INFO]: legojoshua12 has made the advancement [Diamonds!]
-[09:18:45] [Server thread/INFO]: legojoshua12 has made the advancement [Monster Hunter]
-[09:19:52] [Server thread/INFO]: Sasuke_Juuls has made the advancement [We Need to Go Deeper]
-[09:19:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5214ms or 104 ticks behind
-[09:19:52] [Server thread/WARN]: legojoshua12 moved too quickly! -9.315186118538975,2.0784000015258783,-3.606491373540223
-[09:20:11] [Server thread/INFO]: [Sasuke_Juuls: Teleported Sasuke_Juuls to b____________obi]
-[09:20:12] [Server thread/INFO]: [b____________obi] Tadeusz you are under arrest
-[09:20:14] [Server thread/INFO]: Sasuke_Juuls fell from a high place
-[09:20:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
-[09:21:09] [Server thread/INFO]: Sasuke_Juuls went up in flames
-[09:21:43] [Server thread/INFO]: Sasuke_Juuls burned to death
-[09:26:11] [Server thread/INFO]: legojoshua12 has made the advancement [Enchanter]
-[09:26:30] [Server thread/INFO]: <TOMATOETORNADO> penis
-[09:26:33] [Server thread/INFO]: <legojoshua12> yes
-[09:26:49] [Server thread/INFO]: * b____________obi poop
-[09:26:51] [Server thread/INFO]: [cmndr_in_chief: Teleported cmndr_in_chief to Sasuke_Juuls]
-[09:27:14] [Server thread/INFO]: TOMATOETORNADO lost connection: Disconnected
-[09:27:14] [Server thread/INFO]: TOMATOETORNADO left the game
-[09:27:16] [Server thread/INFO]: b____________obi lost connection: Disconnected
-[09:27:16] [Server thread/INFO]: b____________obi left the game
-[09:27:18] [Server thread/INFO]: legojoshua12 lost connection: Disconnected
-[09:27:18] [Server thread/INFO]: legojoshua12 left the game
-[09:27:19] [Server thread/INFO]: Sasuke_Juuls lost connection: Disconnected
-[09:27:19] [Server thread/INFO]: Sasuke_Juuls left the game
-[09:27:38] [Server thread/INFO]: cmndr_in_chief lost connection: Disconnected
-[09:27:38] [Server thread/INFO]: cmndr_in_chief left the game
-[09:40:10] [User Authenticator #8/INFO]: UUID of player Sasuke_Juuls is 0894d9ea-ad6a-4868-a170-41f7a983da7f
-[09:40:10] [Server thread/INFO]: Sasuke_Juuls[/10.162.33.243:63381] logged in with entity id 81874 at (106.67553421588022, 87.0, -284.2523538533633)
-[09:40:10] [Server thread/INFO]: Sasuke_Juuls joined the game
-[09:40:31] [User Authenticator #9/INFO]: UUID of player cmndr_in_chief is 9ac0a14d-1b1f-44cf-9a36-1f24440320db
-[09:40:31] [Server thread/INFO]: cmndr_in_chief[/127.0.0.1:60980] logged in with entity id 82213 at (95.58940709361214, 64.0, -270.0391493546267)
-[09:40:31] [Server thread/INFO]: cmndr_in_chief joined the game
-[09:42:11] [Server thread/INFO]: [cmndr_in_chief: Teleported cmndr_in_chief to 25.5, 56.0, -387.5]
-[09:43:03] [Server thread/INFO]: [cmndr_in_chief: Teleported cmndr_in_chief to Sasuke_Juuls]
-[09:43:27] [Server thread/INFO]: [cmndr_in_chief: Teleported cmndr_in_chief to 25.5, 56.0, -387.5]
-[09:44:41] [Server thread/INFO]: Sasuke_Juuls lost connection: Disconnected
-[09:44:41] [Server thread/INFO]: Sasuke_Juuls left the game
-[09:45:36] [Server thread/INFO]: cmndr_in_chief lost connection: Disconnected
-[09:45:36] [Server thread/INFO]: cmndr_in_chief left the game
-[09:45:45] [Server thread/INFO]: Unknown command
-[09:45:45] [Server thread/INFO]: /wtop<--[HERE]
-[09:45:47] [Server thread/INFO]: Stopping the server
-[09:45:47] [Server thread/INFO]: Stopping server
-[09:45:47] [Server thread/INFO]: Saving players
-[09:45:47] [Server thread/INFO]: Saving worlds
-[09:45:47] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[09:45:47] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[09:45:47] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[09:45:48] [Server Shutdown Thread/INFO]: Stopping server
-[09:45:48] [Server Shutdown Thread/INFO]: Saving players
-[09:45:48] [Server Shutdown Thread/INFO]: Saving worlds
-[09:45:48] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[09:45:48] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[09:45:48] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[09:32:29] [Server thread/INFO]: Default game type: SURVIVAL
+[09:32:29] [Server thread/INFO]: Generating keypair
+[09:32:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:32:29] [Server thread/INFO]: Using default channel type
+[09:32:30] [Server thread/INFO]: Preparing level "world"
+[09:32:30] [Server thread/INFO]: Reloading ResourceManager: Default
+[09:32:31] [Server thread/INFO]: Loaded 524 recipes
+[09:32:31] [Server thread/INFO]: Loaded 571 advancements
+[09:32:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 4%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 8%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 12%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 16%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 20%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 24%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 28%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 32%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 36%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 40%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 44%
+[09:32:32] [Server thread/INFO]: Preparing spawn area: 48%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 52%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 56%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 60%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 64%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 68%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 72%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 76%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 80%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 84%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 88%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 92%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 96%
+[09:32:33] [Server thread/INFO]: Preparing spawn area: 100%
+[09:32:33] [Server thread/INFO]: Time elapsed: 1346 ms
+[09:32:33] [Server thread/INFO]: Done (3.027s)! For help, type "help"
+[09:33:12] [Server thread/INFO]: [Server] whip dab
+[09:33:46] [User Authenticator #1/INFO]: UUID of player legojoshua12 is b3d84602-239f-45ea-a036-7ace620f16d5
+[09:33:46] [Server thread/INFO]: legojoshua12[/10.162.40.206:56604] logged in with entity id 535 at (23.872857072924173, 56.0, -387.05797535457043)
+[09:33:46] [Server thread/INFO]: legojoshua12 joined the game
+[09:35:04] [Server thread/INFO]: legojoshua12 has made the advancement [Cover Me With Diamonds]
+[09:39:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2387ms or 47 ticks behind
+[09:59:14] [Server thread/INFO]: legojoshua12 lost connection: Disconnected
+[09:59:14] [Server thread/INFO]: legojoshua12 left the game
+[09:59:39] [Server thread/INFO]: Stopping the server
+[09:59:39] [Server thread/INFO]: Stopping server
+[09:59:39] [Server thread/INFO]: Saving players
+[09:59:39] [Server thread/INFO]: Saving worlds
+[09:59:39] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[09:59:39] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[09:59:39] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[09:59:39] [Server Shutdown Thread/INFO]: Stopping server
+[09:59:39] [Server Shutdown Thread/INFO]: Saving players
+[09:59:39] [Server Shutdown Thread/INFO]: Saving worlds
